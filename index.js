@@ -36,11 +36,11 @@ reset.onclick = function(){
     }
 
     else if(guess < rndnum){
-      text.textContent = `You are a little low, Guess Higher!`;
+      text.textContent = `Guess Higher!`;
     }
 
     else if(guess > rndnum){
-      text.textContent = `You are a little high, Guess Lower!`;
+      text.textContent = `Guess Lower!`;
     }
 
     else{
@@ -50,7 +50,5 @@ reset.onclick = function(){
     document.getElementById("input").value = "";
 
   }
-
-console.log(rndnum);
 
 }
