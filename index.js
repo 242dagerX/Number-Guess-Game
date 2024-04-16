@@ -25,9 +25,11 @@ reset.onclick = function(){
     if(guess === rndnum){
       if(attempts == 1){
         text.textContent = `You Guessed it Right! It took you ${attempts} attempt`;
+        reset.textContent = "Play Again?";
       }
       else {
         text.textContent = `You Guessed it Right! It took you ${attempts} attempts`;
+        reset.textContent = "Play Again?";
       }
     }
 
@@ -50,5 +52,4 @@ reset.onclick = function(){
     document.getElementById("input").value = "";
 
   }
-
 }
