@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   background-color: black;
 }
 
@@ -43,7 +43,7 @@ html, body {
   font-size: 3em;
   background-color: black;
   color: pink;
-  border-color: Pink;
+  border-color: pink;
   border-width: 10px;
   border-style: solid;
 }
@@ -57,7 +57,7 @@ html, body {
   cursor: pointer;
   background-color: black;
   color: pink;
-  transition: all, .4s;
+  transition: all .4s;
   border-radius: 25px;
   border-color: pink;
   border-width: 10px;
@@ -76,8 +76,8 @@ html, body {
   margin-left: 7.5%;
   cursor: pointer;
   background-color: black;
-  color: Pink;
-  transition: all, .4s;
+  color: pink;
+  transition: all .4s;
   border-radius: 25px;
   border-color: pink;
   border-width: 10px;
@@ -88,3 +88,39 @@ html, body {
   color: black;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  #text {
+    font-size: 4em; /* Adjust text size for tablets */
+  }
+
+  #input {
+    font-size: 2em; /* Adjust input font size for tablets */
+    margin: 0 5%; /* Adjust margin for tablets */
+  }
+
+  #submit, #reset {
+    font-size: 2.5em; /* Adjust button font size for tablets */
+    width: 90%; /* Adjust button width for tablets */
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  #text {
+    font-size: 3em; /* Adjust text size for small phones */
+  }
+
+  #input {
+    font-size: 1.5em; /* Adjust input font size for small phones */
+    margin: 0 2%; /* Adjust margin for small phones */
+  }
+
+  #submit, #reset {
+    font-size: 2em; /* Adjust button font size for small phones */
+    width: 95%; /* Adjust button width for small phones */
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+}
