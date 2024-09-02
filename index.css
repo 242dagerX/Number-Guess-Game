@@ -44,7 +44,7 @@ html, body {
   background-color: black;
   color: pink;
   border-color: pink;
-  border-width: 10px;
+  border-width: 10px; 
   border-style: solid;
 }
 
@@ -60,7 +60,7 @@ html, body {
   transition: all .4s;
   border-radius: 25px;
   border-color: pink;
-  border-width: 10px;
+  border-width: 10px; 
 }
 
 #submit:hover {
@@ -80,7 +80,7 @@ html, body {
   transition: all .4s;
   border-radius: 25px;
   border-color: pink;
-  border-width: 10px;
+  border-width: 10px; 
 }
 
 #reset:hover {
@@ -88,39 +88,43 @@ html, body {
   color: black;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   #text {
-    font-size: 4em; /* Adjust text size for tablets */
+    font-size: 4em; 
   }
 
   #input {
-    font-size: 2em; /* Adjust input font size for tablets */
-    margin: 0 5%; /* Adjust margin for tablets */
+    font-size: 2em; 
+    margin: 0 5%; 
+    border-width: 8px;  
   }
 
   #submit, #reset {
-    font-size: 2.5em; /* Adjust button font size for tablets */
-    width: 90%; /* Adjust button width for tablets */
+    font-size: 2.5em; 
+    width: 90%; 
     margin-right: 5%;
     margin-left: 5%;
+    border-width: 8px; 
   }
 }
 
 @media (max-width: 480px) {
   #text {
-    font-size: 3em; /* Adjust text size for small phones */
+    font-size: 3em; 
   }
 
   #input {
-    font-size: 1.5em; /* Adjust input font size for small phones */
-    margin: 0 2%; /* Adjust margin for small phones */
+    font-size: 1.5em; 
+    margin: 0 2%; 
+    border-width: 5px; 
   }
 
   #submit, #reset {
-    font-size: 2em; /* Adjust button font size for small phones */
-    width: 95%; /* Adjust button width for small phones */
+    font-size: 2em; 
+    width: 95%; 
     margin-right: 2%;
     margin-left: 2%;
+    border-width: 5px; 
   }
 }
+
